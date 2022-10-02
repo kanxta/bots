@@ -103,11 +103,6 @@ client.on("messageCreate", (message) => {
         
         }
       }
-      
-      //スタート処理終わり
-      //エラー
-      else{message.reply(`内部エラーです。bot管理者（鯖主kanxta）にDMしてください。すぐ（？）改善します。`);
-          console.log('ERROR-鯖主DM')}
     }
   }
 });
